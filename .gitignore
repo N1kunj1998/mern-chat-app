@@ -1,0 +1,70 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
+*.mongo
+*.db
+*.sql
+
+# Built files and directories
+build/
+dist/
+public/
+out/
+
+# Cache directories
+.cache/
+.next/
+.vscode/
+
+# Coverage directory
+coverage/
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Miscellaneous
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Next.js specific
+.next/
+*.log
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Other files
+*.bak
+*.tmp
+*.temp
+*.pid
